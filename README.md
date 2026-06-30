@@ -117,7 +117,7 @@ Production:
 - Example:
 
 ```bash
-REACT_APP_API_BASE_URL=https://your-backend-domain/cardekho
+REACT_APP_API_BASE_URL=https://cardekho-ai-assignment.onrender.com/cardekho
 ```
 
 Notes:
