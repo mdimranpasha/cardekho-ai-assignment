@@ -1,0 +1,18 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    container_name: smart-car-shortlist-backend
+    ports:
+      - "8081:8081"
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: smart-car-shortlist-frontend
+    depends_on:
+      - backend
+    environment:
+      REACT_APP_API_BASE_URL: http://localhost:8081/cardekho
+    ports:
+      - "3000:3000"

@@ -1,0 +1,18 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Frontend
+frontend/node_modules/
+frontend/.parcel-cache/
+frontend/dist/
+
+# Backend
+backend/target/
+
+# Env files
+.env
+.env.*
+!.env.example
